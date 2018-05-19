@@ -23,6 +23,7 @@ image::https://raw.githubusercontent.com/apache/tinkerpop/master/docs/static/ima
 [[release-3-2-10]]
 === TinkerPop 3.2.10 (Release Date: NOT OFFICIALLY RELEASED YET)
 
+* Added a dotnet template project that should make it easier to get started with Gremlin.Net.
 * Removed recursive handling of streaming results from Gremlin-Python driver to avoid max recursion depth errors.
 * Fixed bug in `GroovyTranslator` that didn't properly handle empty `Map` objects.
 
